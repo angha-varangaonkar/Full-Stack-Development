@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <style>
+       
+        
+        body{
+            background-image: url(zomatoImage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+
+       h1{
+        color: white;
+        text-align: center;
+        font-size: 60px;
+       }
+       h2{
+        color: white;
+        text-align: center;
+
+       }
+       .location{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+         
+       
+       }
+       .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 50px;
+       font-size: medium;
+
+       }
+       .last{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-radius: 10px;
+        width: 900px;
+        margin-left: 500px;
+        
+        
+       }
+       select{       
+        border: 2px solid white;
+        width: 200px;
+        font-size: 20px;
+       }
+       #search{
+       
+        border: 2px solid white;
+        font-size: 20px;
+        width:400px ;
+       }
+       .whole{
+       margin-top: 250px;
+       }
+       /* .margin{
+        position: fixed;
+
+       } */
+
+    </style>
+</head>
+<body>
+ <div class="margin">
+    <div class="whole">
+    <h1>ZOMATO</h1>
+    <h2>Discover the best food & drinks in Lucknow</h2>
+    <div class="last">
+        <div class="location">
+            <i class='bx bxs-location-plus'></i>
+            <select name="" id="">
+                <option value=""> Lucknow</option>
+                <option value="">baba ji da dhaba</option>
+                <option value="">kulche wala</option>
+                <option value="">pandit ji ki chai</option>
+                <option value="">starbucks</option>
+                <option value="">udapi to mumbai</option>
+                <option value="">dosa plaza</option>
+                <option value="">hadipa</option>
+    
+            </select>
+
+        </div>
+        <div class="search">
+            <i class='bx bx-search'></i>
+            <input type="text" placeholder="Search for restaurant,cuisine or a dish" id="search">
+
+        </div>
+
+    </div>
+   </div>
+</div>
+</body>
+</html>

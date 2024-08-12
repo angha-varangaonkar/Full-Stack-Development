@@ -1,0 +1,61 @@
+<!-- #is written for id and . for class -->
+<!-- height and width are aplicable on block element not on inline function also it is not applicable on anchor tag  -->
+ <!-- anchor tag be created as inline box by using display : inline box so it can make the chganges in its width and height  -->
+  <!-- find inline and block function  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 20rem;
+        }
+        #abc{
+            font-size: 20px;
+        }
+        div{
+            /* font-size: 40px; */
+            height: 300px;
+            width: 300px;
+            border: 1px solid red;
+
+        }
+        h1{
+            height: 50%;
+            width: 50%;
+            border: 1px solid black;
+        }
+        h4{
+            font-size: 2em;
+
+        }
+        .abc{
+            background-color: aqua;
+            /* height: 50vh; vh for height and vw for width these two adjust according to the scrren*/
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+    <!--  relative  em rem vh vm % and more !
+      rm root or gets adjusted to the font of a device and em parent like 2em*40px    -->
+      <!-- absolute px pt in mm  -->
+       <!-- % it is 50% of parent node -->
+        <!-- by default is 16 px -->
+      <p>angha</p>
+      <p id="abc">angha</p>
+    
+
+      <div>
+        <h4>techno </h4>
+      </div>
+      <div class="abc"> sam
+        <h1>angha </h1>
+      </div>
+
+
+    
+</body>
+</html>

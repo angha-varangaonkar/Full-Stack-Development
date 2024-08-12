@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* primary variable can be used when we want to change the color of h1 and p both it is global  */
+        :root{
+            --primarycolor:yellow;
+        }
+        h1{
+            color: var(--primarycolor);
+            font-size: var(--primarycolor);
+        }
+        #ab{
+            /* secondary variable which can be used in all the p tags it is a local variable  */
+            --secondarycolor:blue;
+            color: var(--secondarycolor);
+            color: var(--primarycolor);
+        }
+        p{
+            color: var(--secondarycolor);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>angha</h1>
+    <p id="ab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum voluptatibus autem, explicabo quae quisquam atque voluptatem repellat 
+        dicta ex, quas unde omnis eligendi. Sed nam rerum reiciendis saepe labore?</p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum a voluptas perspiciatis quaerat in voluptatum optio ipsum, magni architecto
+         magnam.
+    </p>    
+    
+</body>
+</html>

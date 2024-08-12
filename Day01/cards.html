@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>First Web Page</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('https://4kwallpapers.com/images/wallpapers/indian-flag-independence-day-india-august-15th-tricolor-red-1920x1080-2224.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: orangered;
+        }
+        p {
+            font-size: large;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            font-size: larger;
+            text-decoration: none;
+            color: blue;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            width: 250px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+        }
+        .card-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: orangered;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <h1>HAPPY INDEPENDENCE DAY</h1>
+
+    <p>Independence Day is celebrated annually on 15 August as a public holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947, the day when the provisions of the Indian Independence Act, which transferred legislative sovereignty to the Indian Constituent Assembly, came into effect. Independence coincided with the partition of India, in which British India was divided into the Dominions of India and Pakistan; the partition was accompanied by violent riots and mass casualties, and the displacement of nearly 15 million people due to religious violence. On 15 August 1947, the first Prime Minister of India, Jawaharlal Nehru, raised the Indian national flag above the Lahori Gate of the Red Fort in Delhi.</p>
+    
+    <a href="https://en.wikipedia.org/wiki/Independence_Day_(India)#:~:text=Independence%20Day%20is%20celebrated%20annually,Constituent%20Assembly%2C%20came%20into%20effect.">Learn more</a>
+
+    <div class="cards-container">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/illustration-indian-army-independence-day-india_470436-1012.jpg" alt="Card Image 1">
+            
+        </div>
+        <div class="card">
+            <img src="https://as2.ftcdn.net/v2/jpg/05/81/38/95/1000_F_581389581_RBp9pghJqNFM76bDszLLsujOYdJH3sUS.jpg" alt="Card Image 2">
+            
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/indian-soldier-indian-flag-join-army-fight-india_923558-2120.jpg" alt="Card Image 3">
+            
+        </div>
+        
+    </div>
+    
+</body>
+</html>

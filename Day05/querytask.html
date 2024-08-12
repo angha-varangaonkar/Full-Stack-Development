@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: black;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            /* display: grid;
+            grid-template-columns:repeat(12,2fr) ; */
+            padding: 2px;
+            /* flex-direction: row; */
+
+        }
+        .item{
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 200px;
+            
+        }
+        @media screen and (max-width:400px) {
+            .container{
+                flex-direction: column;
+                color: white;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item" >BOX1</div>
+        <div class="item item" >BOX2</div>
+        <div class="item item" >BOX3</div>
+        <div class="item item" >BOX4</div>
+        <div class="item item" >BOX5</div>
+        <div class="item item">BOX6</div>
+        <div class="item item" >BOX7</div>
+        <div class="item item" >BOX8</div>
+        <div class="item item" >BOX9</div>
+        <div class="item item" >BOX10</div>
+        <div class="item item" >BOX11</div>
+        <div class="item item" >BOX12</div>
+      </div>
+    
+</body>
+</html>
