@@ -27,7 +27,7 @@ printNumber(para);
 
 
 
-
+//REVIEW - getelementsbyTagName always returns htmlCollection which looks like an array but it is not an array 
 //TODO CONVERT HTML COLLECTION 'para' in to an array 
 const newpara = [...para];
 console.log(newpara);
