@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Color Cycle</title>
+    <style>
+        #myButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="myButton" onclick="changeColor()">Click Me</button>
+
+    <script>
+        var colors = ["red", "green", "blue", "yellow", "orange", "purple"];
+        var currentIndex = 0;
+
+        function changeColor() {
+            // Change the button's background color to the next color in the array
+            var button = document.getElementById("myButton");
+            button.style.backgroundColor = colors[currentIndex];
+
+            // Increment the index to cycle through the colors
+            currentIndex++;
+
+            // Reset index if it exceeds the length of the color array
+            if (currentIndex >= colors.length) {
+                currentIndex = 0;
+            }
+        }
+    </script>
+
+</body>
+</html>
