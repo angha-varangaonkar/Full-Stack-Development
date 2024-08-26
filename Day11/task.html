@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-group">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+        <div id="weatherCard" class="card" style="display: none;">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="weatherDescription"></p>
+        </div>
+    </div>
+    <script src="./task.js"></script>
+</body>
+</html>
