@@ -126,7 +126,7 @@
 // })
 
 
-
+// throw new error ('countrynot found')//a method to generate a error
 async function fetchCountry() {
     try {
         const res =await fetch(' https://restcountries.com/v3.1/all');
