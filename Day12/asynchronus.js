@@ -132,7 +132,17 @@ async function fetchCountry() {
         const res =await fetch(' https://restcountries.com/v3.1/all');
 
         const data =await res.json();
-        console.log(data);
+        data.forEach(element => {
+         console.log(element)
+         const h1 = document.createElement('h1')
+         const img = document.createElement("img");
+         img.style.width = '200px'
+         img.src = element.flags.svg
+         h1.innerText = element.name.common;
+         document.body.appendChild(h1)
+         document.body.appendChild(img)
+        })
+        
         
     } catch (error) {
         console.log(error)
